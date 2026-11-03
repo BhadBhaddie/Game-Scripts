@@ -1,4 +1,5 @@
---from ooagbaoga discord : OOGABOOGA#1023
+--from BaddestBitch aka One_and_Only
+--Discord Invite https://discord.gg/t4sZNEjSWh
 bomb = "Bombarda" --hotkey  T
 stone = "Glacius" --hotakey E
 heal = "Vulnera Sanentur" --hotkey H
@@ -106,7 +107,7 @@ mouse.KeyDown:connect(function(key) --bombarda
 		cast = 0
 	end
 end)
-mouse.KeyDown:connect(function(key) --bombarda
+mouse.KeyDown:connect(function(key) --protego
 	if key == "c" then
 		cast = 1
 		while wait() do
