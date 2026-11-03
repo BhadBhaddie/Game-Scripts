@@ -10,8 +10,8 @@ die2 = "Avada Kedavra" --hotkey F
 die3 = "Silencio"  --hotkey R
 protect = "protego" --keybind C
 
-plr = game.Players.LocalPlayer
-mouse = plr:GetMouse()
+local plr = game.Players.LocalPlayer
+local mouse = plr:GetMouse()
 
 mouse.KeyDown:connect(function(key) --bombarda
 	if key == "t" then
